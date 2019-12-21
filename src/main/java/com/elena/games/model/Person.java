@@ -5,16 +5,16 @@ import java.util.List;
 
 public class Person {
     private String name;
-    private String surname;
+    private String lastname;
     private Integer id;
     private List<BoardGame> game;
 
     public Person() {
     }
 
-    public Person(String name, String surname, Integer id, List<BoardGame> game) {
+    public Person(String name, String lastname, Integer id, List<BoardGame> game) {
         this.name = name;
-        this.surname = surname;
+        this.lastname = lastname;
         this.id = id;
         this.game = game;
     }
@@ -27,12 +27,12 @@ public class Person {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public Integer getId() {
@@ -55,7 +55,7 @@ public class Person {
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                ", lastname='" + lastname + '\'' +
                 ", id=" + id +
                 ", game=" + game +
                 '}';
