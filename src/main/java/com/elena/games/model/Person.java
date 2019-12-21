@@ -10,6 +10,7 @@ public class Person {
     private List<BoardGame> game;
 
     public Person() {
+        // empty constructor
     }
 
     public Person(String name, String lastname, Integer id, List<BoardGame> game) {
