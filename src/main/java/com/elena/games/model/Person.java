@@ -1,16 +1,18 @@
 package com.elena.games.model;
 
 
+import java.util.List;
+
 public class Person {
     private String name;
     private String surname;
     private Integer id;
-    private BoardGame game;
+    private List<BoardGame> game;
 
     public Person() {
     }
 
-    public Person(String name, String surname, Integer id, BoardGame game) {
+    public Person(String name, String surname, Integer id, List<BoardGame> game) {
         this.name = name;
         this.surname = surname;
         this.id = id;
@@ -41,11 +43,21 @@ public class Person {
         this.id = id;
     }
 
-    public BoardGame getGame() {
+    public List<BoardGame> getGame() {
         return game;
     }
 
-    public void setGame(BoardGame game) {
+    public void setGame(List<BoardGame> game) {
         this.game = game;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", id=" + id +
+                ", game=" + game +
+                '}';
     }
 }
