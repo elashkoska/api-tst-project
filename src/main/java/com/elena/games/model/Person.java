@@ -5,16 +5,16 @@ public class Person {
     private String name;
     private String surname;
     private Integer id;
-    private BoardGame game;
+    protected BoardGame games;
 
     public Person() {
     }
 
-    public Person(String name, String surname, Integer id, BoardGame game) {
+    public Person(String name, String surname, Integer id, BoardGame games) {
         this.name = name;
         this.surname = surname;
         this.id = id;
-        this.game = game;
+        this.games = games;
     }
 
     public String getName() {
@@ -41,11 +41,11 @@ public class Person {
         this.id = id;
     }
 
-    public BoardGame getGame() {
-        return game;
+    public BoardGame getGames() {
+        return games;
     }
 
-    public void setGame(BoardGame game) {
-        this.game = game;
+    public void setGames(BoardGame games) {
+        this.games = games;
     }
 }
