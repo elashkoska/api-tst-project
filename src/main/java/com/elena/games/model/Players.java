@@ -8,6 +8,6 @@ public class Players {
     {
         player1.setName("Elena");
         player2.setName("Bojan Trajkovski");
-        player2.setName("Filip");
+        player2.setName("Filip Laskoski");
     }
 }
