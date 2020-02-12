@@ -7,7 +7,7 @@ public class Players {
     public void addPlayer()
     {
         player1.setName("Elena");
-        player2.setName("Bojan");
+        player2.setName("Bojan Trajkovski");
         player2.setName("Filip");
     }
 }
