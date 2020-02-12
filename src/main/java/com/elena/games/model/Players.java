@@ -8,5 +8,6 @@ public class Players {
     {
         player1.setName("Elena");
         player2.setName("Bojan");
+        player2.setName("Filip");
     }
 }
